@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Martial Art Simulator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body style="background-image: url('/images/background.jpg');background-size: cover;background-attachment: fixed;background-repeat: no-repeat;">
-<canvas id="my-canvas" width="500px" height="500px"></canvas>
-<button id="kick">Kick(Left Arrow Key)</button>
-<button id="punch">Punch(Right Arrow Key)</button>
-<button id="backward">Backward(Down Arrow Key)</button>
-<button id="forward">Forward(Up Arrow Key)</button>
-<button id="block">Block(CTRL Key)</button>
+<canvas id="my-canvas" style="border: 2px solid green;"width="1200px" height="500px"></canvas>
+<button  class="btn btn-success" id="kick">Kick(Left Arrow Key)</button>
+<button class="btn btn-success" id="punch">Punch(Right Arrow Key)</button>
+<button class="btn btn-success" id="backward">Backward(Down Arrow Key)</button>
+<button class="btn btn-success" id="forward">Forward(Up Arrow Key)</button>
+<button class="btn btn-success" id="block">Block(CTRL Key)</button>
 </body>
-<script type="text/javascript" src="/main.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </html>
 
 

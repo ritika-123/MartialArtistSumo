@@ -12,7 +12,7 @@ let loadImage = (src, callback) => {
 	//img.src = "/images/idle.png";
 	
 let imagePath = (frameNumber, animation)=>{
-	return "/images/" + animation + "/" + frameNumber + ".png";
+	return "images/" + animation + "/" + frameNumber + ".png";
 };
 
 let frames = {
