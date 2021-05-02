@@ -106,7 +106,7 @@ loadImages((images) =>{
 			queuedAnimations.push("backward");
 		}else if(key === "ArrowUp"){
 			queuedAnimations.push("forward");
-		}else if(key === "ctrlKey"){
+		}else if(key === "b" || key=== "B"){
 			queuedAnimations.push("block");
 		}
 	});
